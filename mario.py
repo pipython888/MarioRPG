@@ -28,3 +28,13 @@ class Mario:
             extra_damage = random.randint(1, 5)
             with open('move_damage.json') as damage_file:
                 return json.loads(damage_file.read())[move] + extra_damage
+
+    def defend(self, enemy_damage):
+        """
+        Returns the damage an enemy will do after Mario's defence.
+
+        enemy_damage => Int
+        returns => Int
+        """
+
+        return enemy_damage - random.randint(0, 5)
