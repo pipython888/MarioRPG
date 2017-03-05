@@ -1,1 +1,4 @@
-{"jump": 7, "hammer": 10}
+{"Mario": {"jump": 7, "hammer": 10},
+"Goomba": {"punch": 4, "jump": 5},
+"KoopaTroopa": {"shell roll": 10, "jump": 6},
+"ShyGuy": {"punch": 6, "jump": 7}}

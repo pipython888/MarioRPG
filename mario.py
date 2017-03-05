@@ -27,7 +27,7 @@ class Mario:
         else:
             extra_damage = random.randint(1, 5)
             with open('move_damage.json') as damage_file:
-                return json.loads(damage_file.read())[move] + extra_damage
+                return json.loads(damage_file.read())["Mario"][move] + extra_damage
 
     def defend(self, enemy_damage):
         """
